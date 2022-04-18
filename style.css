@@ -741,7 +741,7 @@ CONTACT SECTION
 }
 
 input[type=text]{
-  width: 170%;
+  width: 100%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
@@ -749,15 +749,7 @@ input[type=text]{
 }
 
 input[type=email]{
-  width: 170%;
-  padding: 7px 20px;
-  margin: 3px 3px;
-  box-sizing: border-box;
-  display: inline-block;
-}
-
-input[type=subject]{
-  width: 170%;
+  width: 100%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
@@ -765,7 +757,7 @@ input[type=subject]{
 }
 
 textarea {
-  width: 170%;
+  width: 100%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
@@ -784,15 +776,6 @@ button {
   justify-content: space-between;
   margin-left: 20rem;
 }
-
-label {
-    vertical-align: top;
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: .5rem;
-}
-
 
 /*
 FOOTER
