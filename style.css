@@ -741,46 +741,56 @@ CONTACT SECTION
 }
 
 input[type=text]{
-  width: 241%;
+  width: 170%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 input[type=email]{
-  width: 245%;
+  width: 170%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 input[type=subject]{
-  width: 231%;
+  width: 170%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 textarea {
-  width: 225%;
+  width: 170%;
   padding: 7px 20px;
   margin: 3px 3px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 12px 28px;
+  padding: 12px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rem;
 }
 
 label {
     vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: .5rem;
 }
 
 
