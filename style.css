@@ -57,17 +57,11 @@ HOME screen
   }
 }
 
-.slideshow-container {
-  display: block;
-  margin:auto;
-  width: 45%;
-}
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  max-width: 45%;
   position: relative;
   margin: auto;
 }
