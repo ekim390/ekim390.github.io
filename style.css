@@ -42,11 +42,12 @@ HOME screen
   .centeredl {
     padding-bottom: 50px;
     text-align: justify;
-    margin-left: 20%;
-    margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
     margin-top:auto;
     margin-bottom: auto;
     padding-top: 70px;
+    width: 80%
   }
   .slideshow-container {
     width: 45%;
